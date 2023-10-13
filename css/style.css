@@ -1,0 +1,70 @@
+body {
+  color: #494841;
+  font-family: Arial, sans-serif;
+  background-color: #B756DB;;
+  margin: 0;
+  height: 100vh;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.container {  
+  border: 5px solid #DB8A3A; /* Borde del div */
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #A19F8F;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+cardLogin{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 10%;
+  border: 1px solid black;
+  background: #fffaf3;
+
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+button{
+  padding: 15px 30px;
+  border-radius: 5px;
+  background: #f0cb09;
+  cursor: pointer;
+}
+
+
+.success{
+  border: solid 3px green;
+}
+
+.error{
+  border: solid 2px red;
+}
+
+.notAvailable{
+  cursor: default;
+  background:  #D9A56A;
+  opacity: 60%;
+}

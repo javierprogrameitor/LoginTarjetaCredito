@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/script.js" defer></script>
+  <title>Formulario de Tarjeta de Crédito</title>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Formulario de Tarjeta de Crédito</h2>
+    <form id="cardLogin">
+      <div class="form-group">
+        <label for="nombre">Nombre en la Tarjeta:</label>
+        <input type="text" id="name" name="name" required>
+        <small></small>
+      </div>
+      <div class="form-group">
+        <label for="numero">Número de Tarjeta:</label>
+        <input type="text" id="numero" name="numero" required>   
+        <small></small>
+      </div>
+      <div class="form-group">
+        <label for="fecha">Fecha de Vencimiento:</label>
+        <input type="text" id="fecha" name="fecha" placeholder="MM/AA" required>    
+        <small></small>
+      </div>
+      <div class="form-group">
+        <label for="cvv">CVV:</label>
+        <input type="number" id="cvv" name="cvv" min="100" max="999" required>
+        <small></small>
+      </div>
+      <button id="button" type="submit" class="notAvailable" value="Enviar">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>
