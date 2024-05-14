@@ -55,11 +55,11 @@ button{
 }
 
 
-.success{
+input.success{
   border: solid 3px green;
 }
 
-.error{
+input.error{
   border: solid 2px red;
 }
 
